@@ -125,7 +125,8 @@ func GetStatsFromDB(uid string) (interface{}, error) {
 		response[0]["faulty_readings"] = 0
 		return response[0], nil
 	}
-	response[0]["faulty_readings"] = faulty_readings.(bson.M)["faulty_readings"]
+	fmt.Println("faulty_readings", faulty_readings)
+	// response[0]["faulty_readings"] = faulty_readings.(bson.D)[0]["faulty_readings"]
 	delete(response[0], "_id")
 	response[0]["uid"] = uid
 

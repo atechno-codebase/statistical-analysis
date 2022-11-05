@@ -4,6 +4,8 @@ go 1.19
 
 require github.com/gorilla/mux v1.8.0
 
+require github.com/tidwall/pretty v1.2.0 // indirect
+
 require (
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
