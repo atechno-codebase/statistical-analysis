@@ -1,0 +1,12 @@
+http://103.168.165.46/server/
+--
+
+--
+POST /write/reading
+{
+  "uid": "Test-1",
+  "user": "master",
+  "temperature": 45.9,
+  "battery": 91
+}
+
