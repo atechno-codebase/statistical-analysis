@@ -2,7 +2,10 @@ module statistical-analysis
 
 go 1.19
 
-require github.com/gorilla/mux v1.8.0
+require (
+	github.com/AbsaOSS/env-binder v1.0.1
+	github.com/gorilla/mux v1.8.0
+)
 
 require github.com/tidwall/pretty v1.2.0 // indirect
 
